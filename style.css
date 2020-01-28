@@ -1,0 +1,123 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: black
+}
+#backdrop{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(disco-dba865f1.png);
+    height: 500px;
+    width: 700px;
+    margin: 20px auto;   
+    border-radius: 10px;
+    
+    
+}
+#calc-backdrop{
+    width: 320px;
+    height: 480px;
+    background-color: burlywood;
+    border-radius: 15px;
+    margin: 0 auto;
+    top: 20px;
+    position:relative;
+    bottom: 10px;
+    box-shadow: 5px 10px 20px black;
+    
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    margin: 0 20px;
+    padding-top: 10px;
+    height: 20px;
+    font-weight:bolder;
+    color: #6D6D6D;
+}
+
+#output{
+    text-align: right;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    height: 20px;
+    
+}
+
+
+#keyboard{
+    height: 360px;
+    margin-left: 20px
+    
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height:50px;
+    float: left;
+    margin: 10px;
+    border-radius:50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px;
+    
+    
+}
+
+.empty{
+    background-color:burlywood;
+    visibility: hidden;
+}
+
+.operator{
+    border-width: 2px;
+    border-color: darkseagreen;
+    background-color:darksalmon;
+    border
+    
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.number:active, .operator:active{
+    font-size: 13px;
+   
+}
+
+.number:hover, .operator:hover{
+    background-color: darkseagreen;
+}
+
+.number:focus, .operator:focus{
+    outline:0;
+}
+
+
+button:nth-child(4){
+    font-size:25px;
+    background-color:#20b2aa
+}
+
+button:nth-child(8){
+    font-size:25px;
+    background-color: #ffa500
+}
+button:nth-child(12){
+    font-size:25px;
+    background-color: #739de0
+}
+
+button:nth-child(16){
+    font-size:25px;
+    background-color: #f08080
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color:#9477af
+}
+
